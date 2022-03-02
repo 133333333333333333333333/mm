@@ -1,0 +1,191 @@
+{
+  "id": "2089642",
+  "name": "meituan",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5468069",
+      "name": "左箭头",
+      "font_class": "iconfontjiantouzuo",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "2336453",
+      "name": "星星",
+      "font_class": "xingxing1-copy-copy-copy",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "11815908",
+      "name": "实心星星",
+      "font_class": "start1",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "6402665",
+      "name": "民宿",
+      "font_class": "minsu",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "3234880",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "976711",
+      "name": "搜索",
+      "font_class": "sousuo01",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "525998",
+      "name": "坐标",
+      "font_class": "zuobiao",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "773843",
+      "name": "美食",
+      "font_class": "meishi",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "1163322",
+      "name": "麦克风",
+      "font_class": "ktv",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "1314393",
+      "name": "火车",
+      "font_class": "huoche",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "2062891",
+      "name": "亲子",
+      "font_class": "qinzi",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "2251326",
+      "name": "美团",
+      "font_class": "meituan",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "3283268",
+      "name": "刷子",
+      "font_class": "Concise",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "4077417",
+      "name": "医药箱",
+      "font_class": "yiyaoxiang",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "5054721",
+      "name": "钻石",
+      "font_class": "zuanshi",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "5171971",
+      "name": "杠铃",
+      "font_class": "gangling",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "5422125",
+      "name": "猫眼",
+      "font_class": "maoyan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "6393873",
+      "name": "美发",
+      "font_class": "meifa",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "8356538",
+      "name": "100分试卷",
+      "font_class": "fenshijuan",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "10000164",
+      "name": "酒杯",
+      "font_class": "ziyuan",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "11115069",
+      "name": "房子",
+      "font_class": "fangzi-copy",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "12007233",
+      "name": "酒店",
+      "font_class": "jiudian",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "11758526",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e79f",
+      "unicode_decimal": 59295
+    },
+    {
+      "icon_id": "14055577",
+      "name": "微博",
+      "font_class": "weibo1",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "767361",
+      "name": "锁",
+      "font_class": "lock",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "7570901",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    }
+  ]
+}

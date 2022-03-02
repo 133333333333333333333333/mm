@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  width: 100%;
+  height: 640px;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #3DC6B6;
+}
+
+.header-content {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header-content img {
+  /* 图片垂直居中 */
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.contain {
+  width: 100%;
+  height: 580px;
+  position: relative;
+  background-color: #F7F7F7;
+}
+
+.contain-content {
+  height: 380px;
+  width: 1010px;
+  /* div水平垂直居中 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contain-text {
+  font-size: 32px;
+  color: #666666;
+  text-align: center;
+  margin: 0 0 78px 0;
+}
+
+.contain-content ul {
+  width: 100%;
+  height: 260px;
+}
+
+.contain-content ul li {
+  float: left;
+  width: 152px;
+  height: 260px;
+  margin: 0 25px;
+}
+
+.contain-cycle {
+  display: block;
+  width: 152px;
+  height: 152px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #fff;
+}
+
+.contain-cycle:hover>.contain-cycle-img {
+  width: 100px;
+  height: 100px;
+}
+
+.contain-cycle img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contain-introduce {
+  text-align: center;
+}
+
+strong {
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.contain-introduce p {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 5px;
+}
+#footer {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#footer .footer-top a {
+  font-size: 9px;
+  color: rgb(61, 198, 182);
+  text-decoration: none;
+}
+
+#footer .footer-top span {
+  font-size: 9px;
+  color: rgb(242, 237, 234);
+}
+
+#footer .footer-bottom a {
+  font-size: 9px;
+  text-decoration: none;
+}
+
+#footer .footer-bottom {
+  font-size: 9px;
+  margin-top: 10px;
+}
+
+
+
+#footer {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#footer .footer-top a {
+  font-size: 9px;
+  color: rgb(61, 198, 182);
+  text-decoration: none;
+}
+
+#footer .footer-top span {
+  font-size: 9px;
+  color: rgb(242, 237, 234);
+}
+
+#footer .footer-bottom a {
+  font-size: 9px;
+  text-decoration: none;
+}
+
+#footer .footer-bottom {
+  font-size: 9px;
+  margin-top: 10px;
+}

@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/icons/农家民宿.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="../css/apartment.css" />
+    <title>美团民宿-民宿短租住宿预定平台，年轻就要住的不一样！</title>
+
+</head>
+
+<body>
+    <div class="all">
+        <div class="header">
+            <a href="" class="logo"><img src="../images/icons/B&Blogo.png" alt="" style="width: 142px;"></a>
+            <div class="login">
+                <a href="">登录/注册</a>
+                <a href="">成为房东</a>
+                <a href="">下载APP</a>
+            </div>
+        </div>
+        <div class="all-content">
+            <div class="scroll">
+                <div id="box" onmouseover="stop()" onmouseout="start()">
+                    <div id="one" class="slide"></div>
+                    <div id="two" class="slide"></div>
+                    <div id="three" class="slide"></div>
+                    <div id="four" class="slide"></div>
+                </div>
+                <div class="search-info">
+                    <ul>
+                        <li style="width: 200px;height: 100%; border-right: 0.8px solid #eeeeee;line-height: 57px;">
+                            <a href="">上海</a>
+                        </li>
+                        <li style="width: 426px;height: 100%; border-right: 0.8px solid #eeeeee; line-height: 57px;">
+                            <a href="">09月28日入住09月29日离开</a>
+                        </li>
+                        <li style="width: 144px;height: 100%;">
+                            <button>查找民宿</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="apartment-msg">
+                    <h2>品牌民宿</h2>
+                    <ul class="product-card">
+                        <li>
+                            <div class="product-content">
+                                <div class="product-msg">
+                                    <a href="">
+                                        <img src="../images/apartment-img/品牌民宿/民宿1.jpg" alt="" style="height: 200px">
+                                        <div class="product-intro">
+                                            <p class="product-name">甜心|loft*石路步行街</p>
+                                            <p class="product-price">￥258</p>
+                                            <p class="product-location">苏州 姑苏区</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-content">
+                                <div class="product-msg">
+                                    <a href="">
+                                        <img src="../images/apartment-img/品牌民宿/民宿2.jpg" alt="" style="height: 200px">
+                                        <div class="product-intro">
+                                            <p class="product-name">【大乐之野佘山岛】C可观日落的亲子小别墅</p>
+                                            <p class="product-price">￥3080</p>
+                                            <p class="product-location">苏州 吴中区</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-content">
+                                <div class="product-msg">
+                                    <a href="">
+                                        <img src="../images/apartment-img/品牌民宿/民宿3.jpg" alt="" style="height: 200px">
+                                        <div class="product-intro">
+                                            <p class="product-name">【半山·兿】·人到半山·【云隐】时光</p>
+                                            <p class="product-price">￥775</p>
+                                            <p class="product-location">苏州 吴中区</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-content">
+                                <div class="product-msg">
+                                    <a href="">
+                                        <img src="../images/apartment-img/品牌民宿/民宿4.jpg" alt="" style="height: 200px">
+                                        <div class="product-intro">
+                                            <p class="product-name">「花筑 · 小时不识月」小巧精致的水乡民居</p>
+                                            <p class="product-price">￥597</p>
+                                            <p class="product-location">苏州 昆山市</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-content">
+                                <div class="product-msg">
+                                    <a href="">
+                                        <img src="../images/apartment-img/品牌民宿/民宿5.jpg" alt="" style="height: 200px">
+                                        <div class="product-intro">
+                                            <p class="product-name">苏州太湖西山岛 · 严宿 · 湖景情侣房</p>
+                                            <p class="product-price">￥620</p>
+                                            <p class="product-location">苏州 吴中区</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-content">
+                                <div class="product-msg">
+                                    <a href="">
+                                        <img src="../images/apartment-img/品牌民宿/民宿6.jpg" alt="" style="height: 200px">
+                                        <div class="product-intro">
+                                            <p class="product-name">「大乐之野·锦溪」露台落地窗大床房</p>
+                                            <p class="product-price">￥980</p>
+                                            <p class="product-location">苏州 昆山市</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="apartment-msg part2">
+                    <h2>热门入住地</h2>
+                    <div class="location-nav" id="tab">
+                        <ul>
+                            <li class="train" onclick="changeTab('0')" id="btn1">
+                                <div>
+                                    <span class="loca">火车站地区</span>
+                                    <span class="rating ">32%选择</span>
+                                </div>
+                            </li>
+                            <li class="wanda" onclick="changeTab('1')" id="btn2">
+                                <div>
+                                    <span class="loca">万达广场</span>
+                                    <span class="rating ">33%选择</span>
+                                </div>
+                            </li>
+                            <li class="guanqianjie" onclick="changeTab('2')" id="btn3">
+                                <div>
+                                    <span class="loca">观前街地区</span>
+                                    <span class="rating ">10%选择</span>
+                                </div>
+                            </li>
+                            <li class="suzhou" onclick="changeTab('3')" id="btn4">
+                                <div>
+                                    <span class="loca">苏州站</span>
+                                    <span class="rating ">15%选择</span>
+                                </div>
+                            </li>
+                            <div id="bottom-slide">
+                            </div>
+                        </ul>
+                        
+                    </div>
+
+                    <hr>
+                    <div id="tabCon">
+                        <div id="tabCon_0">
+                            <ul class="product-card">
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/火车站地区/民宿1.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">【ZHU.宅】苏州站旁+双地铁+温馨复式二居</p>
+                                                    <p class="product-info">整套 · 2居室 · 可住7人 ·火车站地区</p>
+                                                    <p class="product-price">￥299</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/火车站地区/民宿2.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">苏州火车站100米现代复式房 近拙政园,平江路,山塘街虎丘观前街#4</p>
+                                                    <p class="product-info">整套 · 3居室 · 可住8人 ·火车站地区</p>
+                                                    <p class="product-price">￥558</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/火车站地区/民宿3.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">【寻宿】No1.loft公寓/百寸巨幕/近地铁口/苏州火车站/万达广场/七里山塘街
+                                                    </p>
+                                                    <p class="product-info">整套 · 2居室 · 可住4人 ·万达广场</p>
+                                                    <p class="product-price">￥150</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/火车站地区/民宿4.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">苏州站 拙政园 观前街 北欧复式房</p>
+                                                    <p class="product-info">整套 · 3居室 · 可住6-8人 ·火车站地区</p>
+                                                    <p class="product-price">￥316</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/火车站地区/民宿5.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">
+                                                        火车站、平江路、山塘街、近地铁2/4号线、地下停车库、百寸超清投影仪、1居室1床（梦幻房）
+                                                    </p>
+                                                    <p class="product-info">整套 · 1居室 · 可住2人 ·火车站地区</p>
+                                                    <p class="product-price">￥391</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/火车站地区/民宿6.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">【城宿】苏州火车站正对面/混搭/精装LOFT/地铁口直达山塘街/观前街平江路苏州博物馆
+                                                    </p>
+                                                    <p class="product-info">整套 · 2居室 · 可住5人 ·火车站地区</p>
+                                                    <p class="product-price">￥170</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tabCon_1">
+                            <ul class="product-card">
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/万达广场/民宿1.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">地铁2号线火车站附近，紧邻万达广场，北寺塔，拙政园等景区【可短/长租 3500/月】
+                                                    </p>
+                                                    <p class="product-info">整套 · 2居室 · 可住7人 ·火车站地区</p>
+                                                    <p class="product-price">￥299</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/万达广场/民宿2.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">高空小屋「150m高空
+                                                        120吋投影」万达/火车站/观前街/平江路/拙政园/博物馆/狮子林/山塘街</p>
+                                                    <p class="product-info">整套 · 3居室 · 可住8人 ·火车站地区</p>
+                                                    <p class="product-price">￥558</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/万达广场/民宿3.png" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">神偷奶爸主题房/精致大床房/万达广场/苏州站/观前街/平江路/苏州博物馆</p>
+                                                    <p class="product-info">整套 · 2居室 · 可住4人 ·万达广场</p>
+                                                    <p class="product-price">￥150</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/万达广场/民宿4.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">【婚纱情缘】近火车站/万达广场/拙政园/虎丘/狮子林</p>
+                                                    <p class="product-info">整套 · 3居室 · 可住6-8人 ·火车站地区</p>
+                                                    <p class="product-price">￥316</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/火车站地区/民宿5.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">
+                                                        火车站、平江路、山塘街、近地铁2/4号线、地下停车库、百寸超清投影仪、1居室1床（梦幻房）
+                                                    </p>
+                                                    <p class="product-info">整套 · 1居室 · 可住2人 ·火车站地区</p>
+                                                    <p class="product-price">￥391</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/火车站地区/民宿6.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">【城宿】苏州火车站正对面/混搭/精装LOFT/地铁口直达山塘街/观前街平江路苏州博物馆
+                                                    </p>
+                                                    <p class="product-info">整套 · 2居室 · 可住5人 ·火车站地区</p>
+                                                    <p class="product-price">￥170</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tabCon_2">
+                            <ul class="product-card">
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/观前街地区/民宿1.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">【ZHU.宅】苏州站旁+双地铁+温馨复式二居</p>
+                                                    <p class="product-info">整套 · 2居室 · 可住7人 ·火车站地区</p>
+                                                    <p class="product-price">￥299</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/观前街地区/民宿2.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">苏州火车站100米现代复式房 近拙政园,平江路,山塘街虎丘观前街#4</p>
+                                                    <p class="product-info">整套 · 3居室 · 可住8人 ·火车站地区</p>
+                                                    <p class="product-price">￥558</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/观前街地区/民宿3.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">【寻宿】No1.loft公寓/百寸巨幕/近地铁口/苏州火车站/万达广场/七里山塘街
+                                                    </p>
+                                                    <p class="product-info">整套 · 2居室 · 可住4人 ·万达广场</p>
+                                                    <p class="product-price">￥150</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/观前街地区/民宿4.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">苏州站 拙政园 观前街 北欧复式房</p>
+                                                    <p class="product-info">整套 · 3居室 · 可住6-8人 ·火车站地区</p>
+                                                    <p class="product-price">￥316</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/观前街地区/民宿5.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">
+                                                        火车站、平江路、山塘街、近地铁2/4号线、地下停车库、百寸超清投影仪、1居室1床（梦幻房）
+                                                    </p>
+                                                    <p class="product-info">整套 · 1居室 · 可住2人 ·火车站地区</p>
+                                                    <p class="product-price">￥391</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/观前街地区/民宿6.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">【城宿】苏州火车站正对面/混搭/精装LOFT/地铁口直达山塘街/观前街平江路苏州博物馆
+                                                    </p>
+                                                    <p class="product-info">整套 · 2居室 · 可住5人 ·火车站地区</p>
+                                                    <p class="product-price">￥170</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tabCon_3">
+                            <ul class="product-card">
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/苏州站/民宿1.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">
+                                                        火车站、拙政园、虎丘、观前街、平江路、山塘街、近地铁2/4号线、、超清投影仪、4床位（小鹿房）</p>
+                                                    <p class="product-info">整套 · 2居室 · 可住7人 ·火车站地区</p>
+                                                    <p class="product-price">￥299</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/苏州站/民宿2.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">（特价房）苏州站对面复式公寓拙政园虎丘山塘街安心入住</p>
+                                                    <p class="product-info">整套 · 3居室 · 可住8人 ·火车站地区</p>
+                                                    <p class="product-price">￥558</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/苏州站/民宿3.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">地铁2号线火车站附近，紧邻万达广场，北寺塔，拙政园等景区【可短/长租 3500/月】
+                                                    </p>
+                                                    <p class="product-info">整套 · 2居室 · 可住4人 ·万达广场</p>
+                                                    <p class="product-price">￥150</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/苏州站/民宿4.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">高空小屋「150m高空
+                                                        120吋投影」万达/火车站/观前街/平江路/拙政园/博物馆/狮子林/山塘街</p>
+                                                    <p class="product-info">整套 · 3居室 · 可住6-8人 ·火车站地区</p>
+                                                    <p class="product-price">￥316</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/火车站地区/民宿5.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">
+                                                        火车站、平江路、山塘街、近地铁2/4号线、地下停车库、百寸超清投影仪、1居室1床（梦幻房）
+                                                    </p>
+                                                    <p class="product-info">整套 · 1居室 · 可住2人 ·火车站地区</p>
+                                                    <p class="product-price">￥391</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-content">
+                                        <div class="product-msg">
+                                            <a href="">
+                                                <img src="../images/apartment-img/热门入住地/火车站地区/民宿6.jpg" alt=""
+                                                    style="height: 200px">
+                                                <div class="product-intro">
+                                                    <p class="product-name">【城宿】苏州火车站正对面/混搭/精装LOFT/地铁口直达山塘街/观前街平江路苏州博物馆
+                                                    </p>
+                                                    <p class="product-info">整套 · 2居室 · 可住5人 ·火车站地区</p>
+                                                    <p class="product-price">￥170</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="more-action">查看更多民宿</a>
+                <div class="bottom">
+                    <ul>
+                        <li style="border-right: 1px solid #e1e6ea;">
+                            <a href="">
+                                <div class="bottom-content">
+                                    <img src="../images/apartment-img/icons/放心入住icon.png" alt="" style="height:32px">
+                                    <span style="font-size: 18px; color: #666;">放心入住</span>
+                                    <span style="font-size: 14px; color: #999">千万保障先行赔付</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li style="border-right: 1px solid #e1e6ea;">
+                            <a href="">
+                                <div class="bottom-content">
+                                    <img src="../images/apartment-img/icons/贴心服务.png" alt="" style="height:32px">
+                                    <span style="font-size: 18px; color: #666;">贴心服务</span>
+                                    <span style="font-size: 14px; color: #999">7*24小时服务</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="bottom-content">
+                                    <img src="../images/apartment-img/icons/信用认证.png" alt="" style="height:32px">
+                                    <span style="font-size: 18px; color: #666;">信用认证</span>
+                                    <span style="font-size: 14px; color: #999">实名认证更放心</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-list">
+                <dl class="city-list">
+                    <dt style="color: #333;">热门城市</dt>
+                    <dt>
+                        <a href="">北京的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">上海的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">南京的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">杭州的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">厦门的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">武汉的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">长沙的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">广州的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">深圳的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">三亚的民宿</a>
+                    </dt>
+                </dl>
+                <dl class="type-list">
+                    <dt style="color: #333;">热门房源</dt>
+                    <dt>
+                        <a href="">有厨具的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">有洗衣机的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">有今夜特价的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">有限时折扣的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">适合情侣的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">视野开阔的民宿</a>
+                    </dt>
+                    <dt>
+                        <a href="">别墅</a>
+                    </dt>
+                    <dt>
+                        <a href="">复式loft</a>
+                    </dt>
+                    <dt>
+                        <a href="">度假民宿</a>
+                    </dt>
+                </dl>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="companyMsg common">
+                    <h5>公司信息</h5>
+                    <ul>
+                        <li>
+                            <a herf="">关于我们</a>
+                        </li>
+                        <li>
+                            <a herf="">工作机会</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="webHelp common">
+                    <h5>网站帮助</h5>
+                    <ul>
+                        <li>
+                            <a herf="">规则中心</a>
+                        </li>
+                        <li>
+                            <a herf="">网站地图</a>
+                        </li>
+                        <li>
+                            <a herf="">民宿推荐</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="customer-Help common">
+                    <h5>人工客服</h5>
+                    <ul>
+                        <li>
+                            <span>客服电话</span>
+                            <span
+                                style="font-size: 20px; color: #252626; font-weight: 800; margin-left: 10px;">400-0660-190</span>
+                        </li>
+                        <li>
+                            <span>登录问题</span>
+                            <span
+                                style="font-size: 16px; color: #252626; font-weight: 800; margin-left: 10px;">10107888</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="qrcode">
+                    <img src="../images/apartment-img/icons/qrcode.png" alt="">
+                    <p>下载美团民宿APP</p>
+                </div>
+                <div class="police">
+                    <img src="../images/apartment-img/icons/police.jpg" alt="">
+                    <a href="">京公网安备11000002002052</a>
+                    <a href="">京ICP备10211739</a>
+                    <a href="">营业资质</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        onload = function () {
+            var arr = document.getElementsByClassName("slide");
+            for (var i = 0; i < arr.length; i++) {
+                arr[i].style.left = i * 1536 + "px";
+            }
+        }
+        function LeftMove() {
+            var arr = document.getElementsByClassName("slide");//获取三个子div
+            for (var i = 0; i < arr.length; i++) {
+                var left = parseFloat(arr[i].style.left);
+                left -= 12;
+                var width = 1536;//图片的宽度
+                if (left <= -width) {
+                    left = (arr.length - 1) * width;//当图片完全走出显示框，拼接到末尾
+                    clearInterval(moveId);
+                }
+                arr[i].style.left = left + "px";
+            }
+        }
+        function divInterval() {
+            moveId = setInterval(LeftMove, 5);//设置一个5毫秒定时器
+        }
+
+
+        timeId = setInterval(divInterval, 2000);//设置一个2秒的定时器。
+
+        function stop() {
+            clearInterval(timeId);
+        }
+        function start() {
+            clearInterval(timeId);
+            timeId = setInterval(divInterval, 6000);
+        }
+
+        //页面失去焦点停止
+        onblur = function () {
+            stop();
+        }
+        //页面获取焦点时开始
+        onfocus = function () {
+            start();
+        }
+
+        function changeTab(tabCon_num) {
+            for (i = 0; i <= 3; i++) {
+                document.getElementById("tabCon_" + i).style.display = "none"; //将所有的层都隐藏 
+
+            }
+            document.getElementById("tabCon_" + tabCon_num).style.display = "block";//显示当前层 
+        }
+
+        // addEventListener(my$("btn1"),"click",function(){
+        //     animate(my$("bottom-slide"), 50);
+        // })
+        // addEventListener(my$("btn1"),"click",function changeTab(tabCon_num) {
+        //     animate(my$("bottom-slide"), 50);
+        //     for (i = 0; i <= 3; i++) {
+        //         document.getElementById("tabCon_" + i).style.display = "none"; //将所有的层都隐藏 
+        //     }
+        //     document.getElementById("tabCon_" + tabCon_num).style.display = "block";//显示当前层 
+        // })
+        // addEventListener(my$("btn2"),"click",function(){
+        //     animate(my$("bottom-slide"), 161);
+        // })
+        // addEventListener(my$("btn2"),"click",function changeTab(tabCon_num) {
+        //     animate(my$("bottom-slide"), 161);
+        //     for (i = 0; i <= 3; i++) {
+        //         document.getElementById("tabCon_" + i).style.display = "none"; //将所有的层都隐藏 
+        //     }
+        //     document.getElementById("tabCon_" + tabCon_num).style.display = "block";//显示当前层 
+        // })
+
+        // my$("btn1").onclick = function () {     //点击按钮移动div
+        //     animate(my$("bottom-slide"), 50);
+        // };
+        // my$("btn2").onclick = function () {
+        //     animate(my$("bottom-slide"), 161);
+        // };
+        // my$("btn3").onclick = function () {
+        //     animate(my$("bottom-slide"), 270);
+        // };
+        // my$("btn4").onclick = function () {
+        //     animate(my$("bottom-slide"), 380);
+        // };
+
+        // 匀速动画
+        // function animate(element, target) {
+        //     //清理定时器
+        //     clearInterval(element.timeId);
+        //     element.timeId = setInterval(function () {
+        //         //获取元素的当前位置
+        //         var current = element.offsetLeft;
+        //         //移动的步数
+        //         var step = 9;
+        //         step = target > current ? step : -step;
+        //         current += step;
+        //         if (Math.abs(current - target) > Math.abs(step)) {
+        //             element.style.left = current + "px";
+        //         } else {
+        //             clearInterval(element.timeId);
+        //             element.style.left = target + "px";
+        //         }
+        //     }, 20);
+        // }
+        // function my$(id) {
+        //     return document.getElementById(id);
+        // }
+
+    </script>
+</body>
+
+</html>

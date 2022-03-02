@@ -1,0 +1,249 @@
+.mt {
+  width: 100%;
+}
+
+.mt-header {
+  width: 980px;
+  height: 47px;
+  margin: 40px auto 30px;
+}
+
+.mt-header a {
+  display: block;
+  width: 130px;
+  height: 47px;
+  line-height: 47px;
+  color: black;
+}
+
+.logo {
+  width: 47px;
+  height: 47px;
+  background-color: #ffc300;
+  border-radius: 10px;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content {
+  float: left;
+  font-weight: 600;
+  font-size: 35px;
+  padding-left: 13px;
+}
+
+/* 清除浮动 */
+.mt-header::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.mt-body {
+  width: 100%;
+  height: 370px;
+  margin: 0 auto;
+}
+
+.mt-bodyContent {
+  width: 980px;
+  height: 370px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.mt-input {
+  width: 270px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 115px;
+}
+
+.input-null {
+  width: 100%;
+  height: 43px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+
+.login-type {
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+}
+
+.login-type span:nth-child(1) {
+  flex: 1;
+  color: #666666;
+}
+
+.login-type span:nth-child(2) {
+  flex: 1;
+  color: #666666;
+  text-align: right;
+}
+
+.phone {
+  height: 36px;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 14px;
+  border: 1px solid #aaaaaa;
+}
+
+.password {
+  height: 36px;
+  width: 100%;
+  margin: 10px 0;
+  display: inline-block;
+  font-size: 14px;
+  border: 1px solid #aaaaaa;
+}
+
+.phone-input {
+  width: 180px;
+  height: 34px;
+  border: none;
+  outline: none;
+  padding: 1px 5px;
+}
+
+.phone-input:hover .phone {
+  border: 1px solid #FE8C00;
+}
+
+.icon-password {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  line-height: 25px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.password-input {
+  height: 34px;
+  border: none;
+  outline: none;
+  padding: 1px 0px;
+}
+
+.forget-password {
+  height: 21px;
+  padding-bottom: 8px;
+  font-size: 14px;
+  text-align: right;
+}
+
+.btn {
+  height: 30px;
+  width: 100%;
+  margin: 8px 0;
+  border: none;
+  background-color: #ffc300;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.guide {
+  color: #666666;
+  font-size: 14px;
+}
+
+.guide span {
+  font-size: 14px;
+  color: #fe8c00;
+}
+
+.title-wrapper {
+  width: 100%;
+}
+
+.title-wrapper hr {
+  width: 22.5%;
+  height: 1px;
+  line-height: 1px;
+  display: inline-block;
+  border: none;
+  background-color: #aaaaaa;
+}
+
+.title-wrapper span {
+  display: inline-block;
+  width: 50%;
+  font-size: 14px;
+  text-align: center;
+  color: #666666;
+}
+
+.login-iconfont {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-iconfont i {
+  display: inline-block;
+  margin: 0 8px;
+  font-size: 20px;
+}
+
+.icon-qq {
+  color: #93c8ed;
+}
+
+.icon-qq:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.icon-weiBo {
+  color: pink;
+}
+
+.icon-weiBo:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mt-footer {
+  width: 980px;
+  height: 91px;
+  margin: 70px auto 0px;
+  font-size: 14px;
+  color: #999999;
+}
+
+.footer-content {
+  height: 50px;
+  margin-bottom: 20px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.footer-content ul {
+  margin: 15px 0;
+}
+
+.footer-content li {
+  float: left;
+}
+
+.footer-content li a {
+  color: #999999;
+}
+
+.footer-content ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.footer-content ul span {
+  display: inline-block;
+  margin: 0 15px;
+  color: #eeeeee;
+}

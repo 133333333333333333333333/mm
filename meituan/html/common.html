@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美团公益</title>
+    <link rel="shortcut icon" href="../images/美团.ico">
+    <link rel="stylesheet" type="text/css" href="../css/help.css" />
+    <script type="text/javascript">
+      onload=function(){
+        var arr = document.getElementsByClassName("slide");
+        for(var i=0;i<arr.length;i++){
+          arr[i].style.left = i*1200+"px";//图片的宽度
+        }
+      }
+      function LeftMove(){
+          var arr = document.getElementsByClassName("slide");//获取三个子div
+          for(var i=0;i<arr.length;i++){
+              var left = parseFloat(arr[i].style.left);
+              left-=10;
+              var width = 1200;//图片的宽度
+              if(left<=-width){
+                  left=(arr.length-1)*width;//当图片完全走出显示框，拼接到末尾
+                  clearInterval(moveId);
+              }
+              arr[i].style.left = left+"px";
+          }
+      }
+      function divInterval(){
+          moveId=setInterval(LeftMove,10);//设置一个10毫秒定时器
+      }
+      
+      
+      timeId=setInterval(divInterval,2000);//设置一个3秒的定时器。
+      
+      function stop(){
+          clearInterval(timeId);
+      }
+      function start(){
+          clearInterval(timeId);
+          timeId=setInterval(divInterval,2000);
+      }
+      
+      //页面失去焦点停止
+      onblur = function(){
+          stop();
+      }
+      //页面获取焦点时开始
+      onfocus = function(){
+          start();
+      }
+</script>
+</head>
+<body>  
+    <div class="all">
+    <div class="header">
+      <div class="header-logo">
+        <a href="https://gongyi.meituan.com/"><img src="../images/美团.png" alt="美团公益" style="width: 30px;"></a>
+        <span>美团·公益</span>
+      </div>
+      <div class="nav">
+        <ul class="nav-lift">
+          <li>首页</li>
+          <li>机构入驻</li>
+          <li>关于我们</li>
+        </ul>
+        <ul class="nav-right">
+          <li>登录</li>
+          <span>|</span>
+          <li>立即注册</li>
+        </ul>
+        <form class="nav-find">
+          <input name="kw" class="search" type="search" maxlength="20" placeholder="请输入机构/项目名称" autocomplete="off" >
+          <img src="../images/搜索.png" alt="搜索" style="width: 15px;">
+        </form>
+      </div>
+    </div>
+    <section>
+      <div id="box" onmouseover="stop()" onmouseout="start()">
+        <div id="one" class="slide"><a href="https://gongyi.meituan.com/project/10208"><img src="../images/公益1.jpg" alt="公益1"></a></div>
+        <div id="two" class="slide"><a href="https://gongyi.meituan.com/project/10179"><img src="../images/公益2.jpg" alt="公益2"></a></div>
+        <div id="three" class="slide"><a href="https://gongyi.meituan.com/project/10206"><img src="../images/公益3.png" alt="公益3"></a></div>
+      </div>
+      <div class="help">
+        <ul>
+          <li>
+            <img src="../images/公益2-1.png" alt="公益2-1">
+            <div class="name">
+              <h1>困境儿童救助与保护 | 慈善募捐</h1>
+              <h2>目标金额 <p style="color: red;">2,000,000.00</p> 元&nbsp&nbsp&nbsp已筹款 <p style="color: red;">265,488.30 </p>元</h2>
+            </div>
+          </li>
+          <li>
+            <img src="../images/公益2-2.png" alt="公益2-2">
+            <div class="name">
+              <h1>我想听见爱的分贝 | 慈善募捐</h1>
+              <h2>目标金额<p style="color: red;"> 1,000,000.00 </p>元&nbsp&nbsp&nbsp已筹款 <p style="color: red;">122,898.66 </p>元</h2>
+            </div>
+          </li>
+          <li>
+            <img src="../images/公益2-3.png" alt="公益2-3">
+            <div class="name" style="width: 371px;">
+              <h1>新阳光病房学校 | 慈善募捐</h1>
+              <h2>已筹款 <p style="color: red;">1,158,850.76</p> 元</h2>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="recommend">
+        <div class="top">
+          <h1>推荐项目</h1>
+        </div>
+        <ul>
+          <li>
+            <img src="../images/公益3-1.png" alt="公益3-1">
+            <div class="name">
+              <h1>关爱留守儿童 | 慈善募捐</h1>
+              <h2>已筹款561,758.69元<br>捐款次数246,474次</h2>
+              <div class="buttom">
+                 <span>我要捐款</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="../images/公益3-2.png" alt="公益3-2">
+            <div class="name">
+              <h1>贫困孤儿助养 | 慈善募捐</h1>
+              <h2>目标金额 1,100,000.00 元<br>已筹款 618,299.78 元<br>捐款次数222,307次</h2>
+              <div class="buttom">
+                <span>我要捐款</span>
+             </div>
+            </div>
+          </li>
+          <li>
+            <img src="../images/公益3-3.png" alt="公益3-3">
+            <div class="name">
+              <h1>山村幼儿园计划 | 慈善募捐</h1>
+              <h2>目标金额 1,000,000.00 元<br>已筹款 610,550.36 元<br>捐款次数104,847次</h2>
+              <div class="buttom">
+                <span>我要捐款</span>
+             </div>
+            </div>
+          </li>
+          <li>
+            <img src="../images/公益3-4.png" alt="公益3-4">
+            <div class="name">
+              <h1>诺亚方舟留住家园 | 慈善募捐</h1>
+              <h2>目标金额 498,800.00 元<br>已筹款 9,027.10 元<br>捐款次数1,113次</h2>
+              <div class="buttom">
+                <span>我要捐款</span>
+             </div>
+            </div>
+          </li>
+          <li>
+            <img src="../images/公益3-5.png" alt="公益3-5">
+            <div class="name">
+              <h1>病患孤儿重获新生 | 慈善募捐</h1>
+              <h2>目标金额 1,000,000.00 元<br>已筹款 913,397.42 元<br>捐款次数315,271次</h2>
+              <div class="buttom">
+                <span>我要捐款</span>
+             </div>
+            </div>
+          </li>
+          <li>
+            <img src="../images/公益3-6.png" alt="公益3-6">
+            <div class="name">
+              <h1>壹基金净水计划 | 慈善募捐</h1>
+              <h2>目标金额 300,000.00 元<br>已筹款 57,817.66 元<br>捐款次数13,332次</h2>
+              <div class="buttom">
+                <span>我要捐款</span>
+             </div>
+            </div>
+          </li>
+          <li>
+            <img src="../images/公益3-7.png" alt="公益3-7">
+            <div class="name">
+              <h1>一元早餐 | 慈善募捐</h1>
+              <h2>已筹款 326,176.69 元<br>捐款次数76,053次</h2>
+              <div class="buttom">
+                <span>我要捐款</span>
+             </div>
+            </div>
+          </li>
+          <li>
+            <img src="../images/公益3-8.png" alt="公益3-8">
+            <div class="name">
+              <h1>山里孩子的小课桌 | 慈善募捐</h1>
+              <h2>目标金额 73,480.00 元<br>已筹款 18,210.52 元<br>捐款次数2,760次</h2>
+              <div class="buttom">
+                <span>我要捐款</span>
+             </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <div class="foot-left">美团公益 ©2018美团点评</div>
+      <div class="foot-right">
+        <ul>
+          <a href="">客服</a>
+          <span>|</span>
+          <a href="">举报</a>
+          <span>|</span>
+          <a href="">关于我们</a>
+        </ul>
+      </div>
+    </footer>
+    </div>
+</body>
+</html>
